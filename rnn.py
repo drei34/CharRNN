@@ -13,7 +13,7 @@ device = 'mps' if torch.backends.mps.is_available() else 'cpu'
 eval_iters = 200
 d_model = 384
 d_hidden = 2*d_model
-n_layer = 2
+n_layer = 1
 dropout = 0.2
 write_to_file = False
 # ------------
